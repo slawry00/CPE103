@@ -1,0 +1,11 @@
+# Licensed under the Apache License: http://www.apache.org/licenses/LICENSE-2.0
+# For details: https://bitbucket.org/ned/coveragepy/src/default/NOTICE.txt
+
+# This is a python file though it doesn't look like it, like a main script.
+a = b = c = d = 0
+a = 3
+b = 4
+if not b:
+    c = 6
+d = 7
+print("xxx: %r %r %r %r" % (a, b, c, d))

@@ -1,0 +1,42 @@
+# Tell Travis what to do
+# https://travis-ci.org/nedbat/coveragepy
+
+language: python
+
+sudo: false
+
+python:
+  - 2.7
+
+addons:
+  apt:
+    sources:
+      - deadsnakes
+    packages:
+      - python3.5
+      - python3.5-dev
+
+env:
+  - TOXENV=py26
+  - TOXENV=py27
+  - TOXENV=py33
+  - TOXENV=py34
+  - TOXENV=py35
+  - TOXENV=pypy
+  - TOXENV=py26 COVERAGE_COVERAGE=yes
+  - TOXENV=py27 COVERAGE_COVERAGE=yes
+  - TOXENV=py33 COVERAGE_COVERAGE=yes
+  - TOXENV=py34 COVERAGE_COVERAGE=yes
+  - TOXENV=py35 COVERAGE_COVERAGE=yes
+  - TOXENV=pypy COVERAGE_COVERAGE=yes
+
+sudo: false
+
+install:
+  - pip install -r requirements/ci.pip
+
+script:
+  - tox
+  - if [[ $COVERAGE_COVERAGE == 'yes' ]]; then python igor.py combine_html; fi
+  - if [[ $COVERAGE_COVERAGE == 'yes' ]]; then pip install codecov; fi
+  - if [[ $COVERAGE_COVERAGE == 'yes' ]]; then codecov -X gcov --file coverage.xml; fi

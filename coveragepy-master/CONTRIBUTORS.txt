@@ -1,0 +1,96 @@
+Coverage.py was originally written by Gareth Rees, and since 2004 has been
+extended and maintained by Ned Batchelder.
+
+Other contributions, including writing code, updating docs, and submitting
+useful bug reports, have been made by:
+
+Adi Roiban
+Alex Gaynor
+Alex Groce
+Alexander Todorov
+Andrew Hoos
+Anthony Sottile
+Arcadiy Ivanov
+Aron Griffis
+Artem Dayneko
+Ben Finney
+Bill Hart
+Brandon Rhodes
+Brett Cannon
+Buck Evan
+Calen Pennington
+Carl Gieringer
+Catherine Proulx
+Chris Adams
+Chris Jerdonek
+Chris Rose
+Christian Heimes
+Christine Lytwynec
+Christoph Zwerschke
+Conrad Ho
+Cosimo Lupo
+Dan Riti
+Dan Wandschneider
+Danek Duvall
+Danny Allen
+David Christian
+David Stanek
+Detlev Offenbach
+Devin Jeanpierre
+Dirk Thomas
+Dmitry Shishov
+Dmitry Trofimov
+Eduardo Schettino
+Emil Madsen
+Edward Loper
+Geoff Bache
+George Paci
+George Song
+Greg Rogers
+Guillaume Chazarain
+Ilia Meerovich
+Imri Goldberg
+Ionel Cristian Mărieș
+JT Olds
+Jessamyn Smith
+Joe Doherty
+Jon Chappell
+Joseph Tate
+Josh Williams
+Julian Berman
+Krystian Kichewko
+Kyle Altendorf
+Leonardo Pistone
+Lex Berezhny
+Loïc Dachary
+Marc Abramowitz
+Marcus Cobden
+Mark van der Wal
+Martin Fuzzey
+Matthew Boehm
+Matthew Desmarais
+Max Linke
+Mickie Betz
+Nathan Land
+Noel O'Boyle
+Pablo Carballo
+Patrick Mezard
+Peter Ebden
+Peter Portante
+Rodrigue Cloutier
+Roger Hu
+Ross Lawley
+Roy Williams
+Sandra Martocchia
+Scott Belden
+Sigve Tjora
+Stan Hu
+Stefan Behnel
+Stephen Finucane
+Steve Leonard
+Steve Peak
+Ted Wexler
+Titus Brown
+Ville Skyttä
+Yury Selivanov
+Zooko Wilcox-O'Hearn

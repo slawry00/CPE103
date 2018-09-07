@@ -1,0 +1,16 @@
+# .treerc for coverage: controls what files get searched.
+[default]
+ignore =
+    .treerc
+    .hgtags
+    build
+    htmlcov
+    .tox* 
+    .coverage* .metacov
+    mock.py
+    *.min.js
+    sample_html sample_html_beta
+    *.so *.pyd
+    *.gz *.zip
+    _build _spell
+    *.egg *.egg-info
